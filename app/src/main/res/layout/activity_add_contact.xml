@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addContact">
+
+
+    <RelativeLayout
+        android:id="@+id/appBar_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#4DD853"
+            app:elevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <ImageView
+                    android:id="@+id/toolbar_image_back"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_baseline_arrow_back_24" />
+
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:layout_marginStart="50dp"
+                    android:layout_centerVertical="true"
+                    android:theme="?attr/actionBarTheme">
+
+                    <TextView
+                        android:id="@+id/custom_title_add_contact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Add Contact"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:textStyle="normal|bold" />
+
+                </androidx.appcompat.widget.Toolbar>
+
+
+            </RelativeLayout>
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardSearchView"
+        android:layout_below="@+id/appBar_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardElevation="15dp">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:queryHint="Search Here..."
+            app:iconifiedByDefault="false"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_below="@+id/cardSearchView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/home_ui_nearpolice_bg">
+
+        <RelativeLayout
+            android:id="@+id/selected_contact_relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="85dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:scrollbars="horizontal"
+                tools:listitem="@layout/emergency_contact_list_horizontally"
+                android:id="@+id/contactSelected"/>
+
+
+        </RelativeLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/selected_contact_relative_layout"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="5dp"
+            tools:listitem="@layout/contact_list_item" />
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/fab_next_add_contact_complete"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#4CAF50"
+            android:textColor="@color/white"
+            app:icon="@drawable/ic_baseline_check_circle"
+            app:iconTint="@color/white" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

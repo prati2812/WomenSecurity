@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "769461747235",
+    "firebase_url": "https://uploadretrieve-ce644-default-rtdb.firebaseio.com",
+    "project_id": "uploadretrieve-ce644",
+    "storage_bucket": "uploadretrieve-ce644.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769461747235:android:456dd8423930ced7d77b96",
+        "android_client_info": {
+          "package_name": "com.example.adminhospital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769461747235-8m32ma6fttv9coavu6o5c818c673f9dk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8t4bYKhDQl96-t-fROA2hlJsrE58t678"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769461747235-8m32ma6fttv9coavu6o5c818c673f9dk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769461747235:android:bb64f2edde65aa7dd77b96",
+        "android_client_info": {
+          "package_name": "com.example.adminpolice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769461747235-8m32ma6fttv9coavu6o5c818c673f9dk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8t4bYKhDQl96-t-fROA2hlJsrE58t678"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769461747235-8m32ma6fttv9coavu6o5c818c673f9dk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769461747235:android:72172804f72c737cd77b96",
+        "android_client_info": {
+          "package_name": "com.example.womensecurity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769461747235-6q6d8t59aaqo0m6pong8clteh4lv4p0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.womensecurity",
+            "certificate_hash": "b28a19e9ab246f032c2901feba238b8122f63848"
+          }
+        },
+        {
+          "client_id": "769461747235-8m32ma6fttv9coavu6o5c818c673f9dk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8t4bYKhDQl96-t-fROA2hlJsrE58t678"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769461747235-8m32ma6fttv9coavu6o5c818c673f9dk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

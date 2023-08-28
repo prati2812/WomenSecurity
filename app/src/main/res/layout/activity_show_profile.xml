@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".showProfile">
+
+    <RelativeLayout
+        android:id="@+id/appBar_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+       <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#4DD853"
+        app:elevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:id="@+id/toolbar_image_back"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_baseline_arrow_back_24" />
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginStart="50dp"
+                android:layout_centerVertical="true"
+                android:theme="?attr/actionBarTheme">
+
+                <TextView
+                    android:id="@+id/custom_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Profile"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:gravity="center"
+                    android:textStyle="normal|bold" />
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+        </RelativeLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    </RelativeLayout>
+
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_below="@+id/appBar_relative"
+       android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:id="@+id/circularImageView_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+
+
+            <RelativeLayout
+                android:id="@+id/circleImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/toolbar_user_image_1"
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:layout_centerInParent="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/person_icon"
+                    app:civ_border_width="0.3dp"
+                    app:civ_circle_background_color="@color/white" />
+
+            </RelativeLayout>
+
+            <!--
+              <de.hdodenhof.circleimageview.CircleImageView
+                  android:id="@+id/toolbar_update_profile"
+                  android:layout_width="30dp"
+                  android:layout_height="30dp"
+                  android:layout_alignEnd="@+id/circleImage"
+                  android:layout_alignBottom="@+id/circleImage"
+                  app:civ_border_width="0.2dp"
+                  android:layout_margin="5dp"
+                  android:src="@drawable/ic_baseline_edit_24"
+                  app:civ_circle_background_color="@color/app_theme_color"/>
+                                                  -->
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/update_user_profile_btn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignEnd="@+id/circleImage"
+                android:layout_alignBottom="@+id/circleImage"
+                android:layout_marginBottom="-1dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="2dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:src="@drawable/ic_baseline_edit_24"
+                    app:tint="@color/app_theme_color" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/updateUserNameRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/circularImageView_update">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <RelativeLayout
+                android:id="@+id/updateUserNameRelative"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/update_userName"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/txt_outline"
+                    android:editable="false"
+                    android:ems="10"
+                    android:hint="Update your name"
+                    android:inputType="phone"
+                    android:padding="15dp"
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/update_msg_btn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="15dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:src="@drawable/ic_baseline_edit_24"
+                    app:tint="@color/app_theme_color" />
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeDeleteBtnLayout"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/updateUserNameRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/relativeDeleteBtn"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/txt_outline_red"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp">
+
+            <RelativeLayout
+                android:id="@+id/delete_relative_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_baseline_delete_24"
+                    android:layout_centerVertical="true"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@+id/delete_relative_btn"
+                android:text="Delete Account"
+                android:textSize="20sp"
+                android:textColor="#FF1100"
+                android:layout_marginStart="5dp"
+                android:gravity="center_vertical"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+   </RelativeLayout>
+
+</RelativeLayout>

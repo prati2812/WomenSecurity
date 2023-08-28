@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    
+    
+    <RelativeLayout
+        android:id="@+id/relative_update_username_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Username"
+            android:textSize="25sp"
+            android:layout_margin="15dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="bold"
+            android:textColor="#9E000000"
+            android:textAllCaps="false"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeUsername_layout"
+        android:layout_below="@+id/relative_update_username_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:id="@+id/update_userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@drawable/txt_outline"
+            android:hint="Enter User name"
+            android:inputType="text"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:singleLine="true"
+            android:padding="15dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeUsername_layout">
+
+
+        <RelativeLayout
+            android:id="@+id/relativeUpdateBtn"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="25dp"
+            android:layout_toStartOf="@+id/relativeCancelBtn"
+            android:layout_marginEnd="20sp"
+            android:background="@drawable/txt_outline">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Update"
+                android:textStyle="bold"
+                android:textColor="@color/app_theme_color"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/relativeCancelBtn"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/txt_outline_red">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Cancel"
+                android:textStyle="bold"
+                android:textColor="#FF1100"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

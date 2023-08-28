@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Nari</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_current_user_maps">CurrentUserMapsActivity</string>
+</resources>

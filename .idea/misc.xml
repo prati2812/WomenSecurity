@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/drawable-v24/profile_blur.xml" value="0.1485" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/drawable-v24/splash_gradient2.xml" value="0.115" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/drawable/button_background.xml" value="0.109" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/drawable/custom_button1.xml" value="0.1485" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/drawable/custom_button2.xml" value="0.115" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/drawable/custom_progress_bar.xml" value="0.1095" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/drawable/custom_progress_bar2.xml" value="0.109" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/drawable/gredient_list.xml" value="0.1115" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/drawable/home_blur.xml" value="0.14" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/drawable/home_ui_nearpolice_bg.xml" value="0.106" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/drawable/home_ui_nearpolice_bg2.xml" value="0.106" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/drawable/home_ui_profile_layout_bg1.xml" value="0.106" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/drawable/ic_baseline_search.xml" value="0.105" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/drawable/no_internet_background.xml" value="0.1485" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/drawable/splash_background.xml" value="0.1115" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/drawable/splash_background2.xml" value="0.1115" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/drawable/splash_gradient.xml" value="0.115" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/drawable/toolbar_gradient.xml" value="0.115" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/drawable/txt_outline.xml" value="0.113" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/drawable/txt_outline_red.xml" value="0.1095" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/drawable/user_profile_layout.xml" value="0.115" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/layout/activity_add_contact.xml" value="0.22" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/layout/activity_emegency_contact_display.xml" value="0.25" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/layout/activity_otp.xml" value="0.22" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/layout/activity_phone_number.xml" value="0.2" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/layout/activity_show_profile.xml" value="0.22" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/layout/activity_spalsh_screen.xml" value="0.22447916666666667" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/layout/activity_splash_screen.xml" value="0.22291666666666668" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/layout/activity_user_profile.xml" value="0.22" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/layout/contact_list_item.xml" value="0.25" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/layout/delete_user_account_bottom_dialog.xml" value="0.25" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/layout/emergency_contact_list_horizontally.xml" value="0.33" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/layout/emergency_contact_list_item.xml" value="0.22" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/layout/nointernetconnection.xml" value="0.2" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/layout/toolbar_addcontact.xml" value="0.22291666666666668" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/layout/update_user_profile.xml" value="0.25" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/layout/update_username_bottom_dialog.xml" value="0.25" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/menu/custom_nav_bar.xml" value="0.1814814814814815" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/menu/menu.xml" value="0.22291666666666668" />
+        <entry key="..\:/PRATIK/App/WomenSecurity/app/src/main/res/menu/menu_addcontact_search.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/drawable/ic_baseline_cancel.xml" value="0.113" />
+        <entry key="app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.113" />
+        <entry key="app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/toolbar_gradient.xml" value="0.1055" />
+        <entry key="app/src/main/res/layout/activity_add_contact.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_current_user_maps.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_emegency_contact_display.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_otp.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_phone_number.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_user_profile.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/contact_list_item.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/emergency_contact_list_item.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/nointernetconnection.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/toolbar_addcontact.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/update_user_profile.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/update_username_bottom_dialog.xml" value="0.3098958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

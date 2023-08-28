@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".phoneNumber">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewPhoneNumber"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        app:cardElevation="35dp"
+        app:cardCornerRadius="20dp"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:padding="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/phon_number_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone number verify"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal" />
+
+
+            <TextView
+                android:id="@+id/phone_desc_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We will send otp on these number to \n verify mobile number"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="13sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"/>
+
+
+            <EditText
+                android:layout_marginTop="15dp"
+                android:id="@+id/edit_phoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:maxLength="10"
+                android:textColor="@color/black"
+                android:background="@drawable/txt_outline"
+                android:hint="Enter phone number"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:padding="15dp"/>
+
+
+            <Button
+                android:id="@+id/phone_number_continue_btn"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Continue"
+                android:textColor="@color/white"
+                android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+                android:drawableTint="@color/white"
+                android:textAllCaps="false"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/app_theme_color" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

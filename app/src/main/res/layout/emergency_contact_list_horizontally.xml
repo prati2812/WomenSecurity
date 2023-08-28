@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="85dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_horizontally1"
+        android:layout_width="100dp"
+        android:layout_height="85dp"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="5dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/add_contact_list_layout1">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/user_image"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    app:civ_border_color="#37000000"
+                    app:civ_border_width="1dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/person_icon"/>
+
+                    <TextView
+                        android:id="@+id/user_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Username"
+                        android:textAlignment="center"
+                        android:autoSizeTextType="uniform"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="normal"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/user_image"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
